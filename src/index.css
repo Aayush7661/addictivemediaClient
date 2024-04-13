@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*  */
+
+/* .container {
+  border: 2px solid;
+}
+
+form {
+  font-family: Arial, sans-serif;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+input{
+
+}
+label {
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+} */
+
+/* .App {
+  text-align: center;
+} */
+
+.container {
+  background-color: #fff;
+  margin: 0px auto;
+  padding: 1px 20px;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin: 0;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.nextButton{
+  width: 50%;
+  background-color: #f0ad4e;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  margin-top:7px
+}
+.alertMessage{
+  color:red
+}
+.nextButton:hover{
+  background-color: #ec971f
+}
+
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="email"],
+select {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.dob-container {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 400px;
+}
+
+.dob-title {
+  display: block;
+  font-family: Arial, sans-serif;
+  color: #666;
+}
+
+.dob-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dob-input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  width: calc(33.333% - 10px);
+}
+
+.dob-input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.button-row {
+  justify-content: center;
+}
+
+.button-row .addbutton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  margin-left: 170px;
+  margin-bottom:5px
+} 
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+}
+
+.submitAdd{
+  width: 40%;
+  background-color: #05781E;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 135px;
+  margin-bottom: 15px
+}
+.submitAdd:hover{
+  background-color: #063D12;
+}
