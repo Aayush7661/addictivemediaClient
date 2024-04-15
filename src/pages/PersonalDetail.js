@@ -44,7 +44,20 @@ const PersonalDetail = () => {
     const { name, value } = e.target;
     let errorMessage = "";
     let newFormData = { ...formData };
-
+    if ((name === "birthDetails.day")) {
+      let dayValue = value;
+      dayValue = parseInt(dayValue, 10);
+      if (dayValue === 0 || dayValue >31) {
+        errorMessage = "enter day value between 1 to 31";
+      }
+    }
+    if ((name === "birthDetails.month")) {
+      let monthValue = value;
+      monthValue = parseInt(monthValue, 10);
+      if (monthValue === 0 || monthValue > 12) {
+        errorMessage = "enter Month value between 1 to 12";
+      }
+    }
     if (name === "email") {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(value)) {
